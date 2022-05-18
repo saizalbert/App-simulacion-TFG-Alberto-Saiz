@@ -1,0 +1,25 @@
+function [guardarResultado,figurasSimultaneas]=controlUsuario()
+monitor=get(0,'ScreenSize'); 
+% Create figure
+h.f = figure('units','pixels','position',[monitor(3)/2-100,monitor(4)/2-100, 350, 50],...
+             'toolbar','none','menu','none');
+% Create yes/no checkboxes
+h.c(1) = uicontrol('style','checkbox','units','pixels',...
+                'position',[10,30,300,15],'string','Guardar resultados');
+h.c(2) = uicontrol('style','checkbox','units','pixels',...
+                'position',[150,30,300,15],'string','Visualizar figuras simultáneamente');    
+% Create OK pushbutton   
+h.p = uicontrol('style','pushbutton','units','pixels',...
+                'position',[80,5,70,20],'string','OK',...
+                'callback',@p_call);
+    % Pushbutton callback
+    function p_call(varargin)
+        vals = get(h.c,'Value');
+        checked = find([vals{:}]);
+        if isempty(checked)
+            checked = 'none';
+        end
+        disp(checked)
+    end
+end
+

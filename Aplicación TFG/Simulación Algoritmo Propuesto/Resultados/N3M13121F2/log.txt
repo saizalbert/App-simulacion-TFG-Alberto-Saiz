@@ -1,0 +1,27 @@
+El algoritmo ha convergido en el blanco  1 en 15 s
+El algoritmo ha convergido en el blanco  2 en 150 s
+El algoritmo ha convergido en el blanco  3 en 30 s
+La simulación ha tardado en total 148.5 s, con un tiempo medio de 1.485 s/vuelta
+ERRORES RADAR
+Las desviaciones típicas del blanco 1 en cartesianas son 17.4865 (x) 3.6451 (y) 2.1158 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 1.147 (r) 0.021782 (\theta) 0.019697 (\phi) 
+Las desviaciones típicas del blanco 2 en cartesianas son 159.2438 (x) 55.7778 (y) 47.2514 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 2.33 (r) 0.017168 (\theta) 0.015532 (\phi) 
+Las desviaciones típicas del blanco 3 en cartesianas son 8.4377 (x) 7.7102 (y) 3.5678 (z) 
+Las desviaciones típicas del blanco 3 en esféricas son 1.1155 (r) 1.2532 (\theta) 0.016858 (\phi) 
+ERRORES KALMAN
+Las desviaciones típicas del blanco 1 en cartesianas son 12.3552 (x) 2.6071 (y) 1.6163 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 1.1482 (r) 0.022679 (\theta) 0.018369 (\phi) 
+Las desviaciones típicas del blanco 2 en cartesianas son 234.2832 (x) 54.3591 (y) 63.6095 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 5.0294 (r) 0.62741 (\theta) 0.016764 (\phi) 
+Las desviaciones típicas del blanco 3 en cartesianas son 6.9849 (x) 5.8858 (y) 2.9361 (z) 
+Las desviaciones típicas del blanco 3 en esféricas son 1.0195 (r) 4.2111 (\theta) 0.013254 (\phi) 
+MEJORA KALMAN
+La mejora por uso de Kalman del blanco 1 es de 29.3442 % (x) 28.4764 % (y) 23.6102 % (z) 
+La mejora por uso de Kalman del blanco 1 es de -0.096637 % (r) -4.1179 % (\theta) 6.7443 % (\phi) 
+La mejora por uso de Kalman del blanco 2 es de -47.1223 % (x) 2.5433 % (y) -34.6194 % (z) 
+La mejora por uso de Kalman del blanco 2 es de -115.8563 % (r) -3554.5083 % (\theta) -7.934 % (\phi) 
+La mejora por uso de Kalman del blanco 3 es de 17.2171 % (x) 23.6625 % (y) 17.7059 % (z) 
+La mejora por uso de Kalman del blanco 3 es de 8.6022 % (r) -236.022 % (\theta) 21.3765 % (\phi) 
+PRECISIÓN DE VELOCIDAD DE BLANCO 1
+La precisión de aceleración de Kalman del blanco 1 es de -2072.8669 % (x) -10516.6696 % (y) 5.0311 % (z) 

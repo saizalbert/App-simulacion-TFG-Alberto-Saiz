@@ -1,0 +1,26 @@
+Bienvenido a la simulación del algoritmo de seguimiento propuesto en el TFG de Alberto Saiz Fernández. 
+
+La aplicación posee una UI interactiva con la que se puede elegir los parámetros de simulación. 
+
+1. Configuración inicial 
+
+	GUARDAR RESULTADOS: Un archivo .mat con la información de simulación y un log (en formato .txt) con la información numérica de la simulación se generará en la carpeta Resultados.
+	
+	VISUALIZAR FIGURAS SIMULTÁNEAMENTES: Se visualiza de manera dinámica y en tiempo real las figuras de las simulación. La simulación durará significativamente más y se consumirá más RAM mientras. 
+
+2. Elegir método de simulación 
+
+	MANUAL: 
+			1. Elegir número de blancos
+			2. Elegir modelo cinemático a utilizar en la simulación
+			3. Introducir todos los parámetros manualmente. 
+	
+AUTOMÁTICO:
+			1. Elegir número de blancos
+			2. Elegir modelo cinemático a utilizar en la simulación
+			3. Los parámetros específicos de cada blanco serán generados automáticamente.  
+	
+ESCENARIOS PREDEFINIDOS: Eligir uno de los Escenarios Predefinidos en el TFG.  
+
+
+

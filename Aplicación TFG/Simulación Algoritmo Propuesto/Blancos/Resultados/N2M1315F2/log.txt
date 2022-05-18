@@ -1,0 +1,20 @@
+El algoritmo ha convergido en el blanco  1 en 22.5 s
+El algoritmo ha convergido en el blanco  2 en 150 s
+La simulación ha tardado en total 148.5 s, con un tiempo medio de 1.485 s/vuelta
+ERRORES RADAR
+Las desviaciones típicas del blanco 1 en cartesianas son 28.6848 (x) 22.7017 (y) 26.5893 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 29.6143 (r) 0.016812 (\phi) 0.018284 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 17.0068 (x) 22.3103 (y) 20.1528 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 33.5117 (r) 0.62614 (\phi) 0.017639 (\theta) 
+ERRORES KALMAN
+Las desviaciones típicas del blanco 1 en cartesianas son 15.027 (x) 12.7302 (y) 12.3507 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 16.3881 (r) 0.93534 (\phi) 0.090883 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 36.7719 (x) 44.4297 (y) 39.0843 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 83.1341 (r) 3.9625 (\phi) 0.35504 (\theta) 
+MEJORA KALMAN
+La mejora por uso de Kalman del blanco 1 es de 47.6134 % (x) 43.9239 % (y) 53.5501 % (z) 
+La mejora por uso de Kalman del blanco 1 es de 44.6615 % (r) -5463.6428 % (\phi) -397.0572 % (\theta) 
+La mejora por uso de Kalman del blanco 2 es de -116.2183 % (x) -99.1439 % (y) -93.9399 % (z) 
+La mejora por uso de Kalman del blanco 2 es de -148.0752 % (r) -532.8563 % (\phi) -1912.8186 % (\theta) 
+PRECISIÓN DE VELOCIDAD DE BLANCO 1
+La precisión de aceleración de Kalman del blanco 1 es de 82.3954 % (x) -2327.9702 % (y) 41.2643 % (z) 

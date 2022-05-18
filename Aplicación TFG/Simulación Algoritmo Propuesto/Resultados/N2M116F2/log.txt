@@ -1,0 +1,804 @@
+El algoritmo ha convergido en el blanco  1 en 15 s
+El algoritmo ha convergido en el blanco  2 en 15 s
+La simulación ha tardado en total 148.5 s, con un tiempo medio de 1.485 s/vuelta
+ERRORES RADAR
+Las desviaciones típicas del blanco 1 en cartesianas son 20.9864 (x) 22.368 (y) 33.6775 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 33.4452 (r) 0.63045 (\phi) 0.044634 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 30.9785 (x) 32.8563 (y) 29.5568 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 39.409 (r) 1.2593 (\phi) 0.018745 (\theta) 
+ERRORES KALMAN
+Las desviaciones típicas del blanco 1 en cartesianas son 24.234 (x) 29.1069 (y) 38.761 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 41.3891 (r) 2.3866 (\phi) 0.047427 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 29.6579 (x) 28.9917 (y) 27.2474 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 34.9552 (r) 1.2593 (\phi) 0.018171 (\theta) 
+MEJORA KALMAN
+La mejora por uso de Kalman del blanco 1 es de -15.475 % (x) -30.1273 % (y) -15.0945 % (z) 
+La mejora por uso de Kalman del blanco 1 es de -23.7517 % (r) -278.5606 % (\phi) -6.258 % (\theta) 
+La mejora por uso de Kalman del blanco 2 es de 4.2629 % (x) 11.7621 % (y) 7.8135 % (z) 
+La mejora por uso de Kalman del blanco 2 es de 11.3013 % (r) -0.0071357 % (\phi) 3.0636 % (\theta) 
+El algoritmo ha convergido en el blanco  1 en 15 s
+El algoritmo ha convergido en el blanco  2 en 16.5 s
+La simulación ha tardado en total 148.5 s, con un tiempo medio de 1.485 s/vuelta
+ERRORES RADAR
+Las desviaciones típicas del blanco 1 en cartesianas son 11.4069 (x) 10.1618 (y) 26.4389 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 26.9597 (r) 1.2655 (\phi) 0.023484 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 11.1206 (x) 15.1646 (y) 31.4093 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 34.5214 (r) 0.023126 (\phi) 0.018038 (\theta) 
+ERRORES KALMAN
+Las desviaciones típicas del blanco 1 en cartesianas son 11.8126 (x) 9.8048 (y) 23.771 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 24.0596 (r) 4.1696 (\phi) 0.023356 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 10.6834 (x) 15.4946 (y) 29.5416 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 32.909 (r) 0.023181 (\phi) 0.017695 (\theta) 
+MEJORA KALMAN
+La mejora por uso de Kalman del blanco 1 es de -3.5564 % (x) 3.5129 % (y) 10.0908 % (z) 
+La mejora por uso de Kalman del blanco 1 es de 10.7571 % (r) -229.4889 % (\phi) 0.54288 % (\theta) 
+La mejora por uso de Kalman del blanco 2 es de 3.9309 % (x) -2.1761 % (y) 5.9461 % (z) 
+La mejora por uso de Kalman del blanco 2 es de 4.6707 % (r) -0.23774 % (\phi) 1.9026 % (\theta) 
+{Reference to non-existent field 'inicioTraza'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tiempoConvergencia', 'C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\Funciones Para Optimización\tiempoConvergencia.m', 5)" style="font-weight:bold">tiempoConvergencia</a> (<a href="matlab: opentoline('C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\Funciones Para Optimización\tiempoConvergencia.m',5,0)">line 5</a>)
+    if isinf(errorKalman{i}.inicioTraza)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SimulacionAlgoritmo_AlbertoSaiz', 'C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\SimulacionAlgoritmo_AlbertoSaiz.m', 559)" style="font-weight:bold">SimulacionAlgoritmo_AlbertoSaiz</a> (<a href="matlab: opentoline('C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\SimulacionAlgoritmo_AlbertoSaiz.m',559,0)">line 559</a>)
+tiempoConv=tiempoConvergencia(errorRadar, errorKalman,param,N);
+} 
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Blanco nº 1
+] 
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Blanco nº 2
+] 
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Error radar en coordenada \phi
+] 
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Error radar en coordenada \theta
+] 
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Error radar en coordenada \phi
+] 
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Error radar en coordenada \theta
+] 
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Blanco nº 1
+] 
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Blanco nº 2
+] 
+q
+
+q =
+
+   100
+
+SimulacionAlgoritmo_AlbertoSaiz
+Has elegido el modo por defecto
+Vuelta número 2
+2%
+Vuelta número 3
+3%
+Vuelta número 4
+4%
+Vuelta número 5
+5%
+Vuelta número 6
+6%
+Vuelta número 7
+7%
+Vuelta número 8
+8%
+Vuelta número 9
+9%
+Vuelta número 10
+10%
+Vuelta número 11
+11%
+Vuelta número 12
+12%
+Vuelta número 13
+13%
+Vuelta número 14
+14%
+Vuelta número 15
+15%
+Vuelta número 16
+16%
+Vuelta número 17
+17%
+Vuelta número 18
+18%
+Vuelta número 19
+19%
+Vuelta número 21
+21%
+Vuelta número 22
+22%
+Vuelta número 23
+23%
+Vuelta número 24
+24%
+Vuelta número 26
+26%
+Vuelta número 27
+27%
+Vuelta número 28
+28%
+Vuelta número 29
+29%
+Vuelta número 30
+30%
+Vuelta número 31
+31%
+Vuelta número 32
+32%
+Vuelta número 33
+33%
+Vuelta número 34
+34%
+Vuelta número 35
+35%
+Vuelta número 38
+38%
+Vuelta número 39
+39%
+Vuelta número 40
+40%
+Vuelta número 41
+41%
+Vuelta número 42
+42%
+Vuelta número 43
+43%
+Vuelta número 44
+44%
+Vuelta número 45
+45%
+Vuelta número 46
+46%
+Vuelta número 47
+47%
+Vuelta número 48
+48%
+Vuelta número 49
+49%
+Vuelta número 50
+50%
+Vuelta número 51
+51%
+Vuelta número 52
+52%
+Vuelta número 53
+53%
+Vuelta número 54
+54%
+Vuelta número 55
+55%
+Vuelta número 56
+56%
+Vuelta número 57
+57%
+Vuelta número 58
+58%
+Vuelta número 59
+59%
+Vuelta número 60
+60%
+Vuelta número 61
+61%
+Vuelta número 62
+62%
+Vuelta número 63
+63%
+Vuelta número 65
+65%
+Vuelta número 66
+66%
+Vuelta número 67
+67%
+Vuelta número 69
+69%
+Vuelta número 70
+70%
+Vuelta número 71
+71%
+Vuelta número 73
+73%
+Vuelta número 74
+74%
+Vuelta número 75
+75%
+Vuelta número 76
+76%
+Vuelta número 77
+77%
+Vuelta número 78
+78%
+Vuelta número 79
+79%
+Vuelta número 80
+80%
+Vuelta número 81
+81%
+Vuelta número 82
+82%
+Vuelta número 83
+83%
+Vuelta número 84
+84%
+Vuelta número 85
+85%
+Vuelta número 86
+86%
+Vuelta número 87
+87%
+Vuelta número 88
+88%
+Vuelta número 89
+89%
+Vuelta número 90
+90%
+Vuelta número 91
+91%
+Vuelta número 92
+92%
+Vuelta número 93
+93%
+Vuelta número 94
+94%
+Vuelta número 95
+95%
+Vuelta número 97
+97%
+Vuelta número 98
+98%
+Vuelta número 99
+99%
+Vuelta número 100
+100%
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Blanco nº 1
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('defaulterrorcallback', 'C:\Program Files\MATLAB\R2020b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m', 12)" style="font-weight:bold">defaulterrorcallback</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2020b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m',12,0)">line 12</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('figurasTrasSimulacion', 'C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\Funciones auxiliares\figurasTrasSimulacion.m', 38)" style="font-weight:bold">figurasTrasSimulacion</a> (<a href="matlab: opentoline('C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\Funciones auxiliares\figurasTrasSimulacion.m',38,0)">line 38</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SimulacionAlgoritmo_AlbertoSaiz', 'C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\SimulacionAlgoritmo_AlbertoSaiz.m', 364)" style="font-weight:bold">SimulacionAlgoritmo_AlbertoSaiz</a> (<a href="matlab: opentoline('C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\SimulacionAlgoritmo_AlbertoSaiz.m',364,0)">line 364</a>)] 
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Blanco nº 2
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('defaulterrorcallback', 'C:\Program Files\MATLAB\R2020b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m', 12)" style="font-weight:bold">defaulterrorcallback</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2020b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m',12,0)">line 12</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('figurasTrasSimulacion', 'C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\Funciones auxiliares\figurasTrasSimulacion.m', 38)" style="font-weight:bold">figurasTrasSimulacion</a> (<a href="matlab: opentoline('C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\Funciones auxiliares\figurasTrasSimulacion.m',38,0)">line 38</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SimulacionAlgoritmo_AlbertoSaiz', 'C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\SimulacionAlgoritmo_AlbertoSaiz.m', 364)" style="font-weight:bold">SimulacionAlgoritmo_AlbertoSaiz</a> (<a href="matlab: opentoline('C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\SimulacionAlgoritmo_AlbertoSaiz.m',364,0)">line 364</a>)] 
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Blanco nº 1
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('defaulterrorcallback', 'C:\Program Files\MATLAB\R2020b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m', 12)" style="font-weight:bold">defaulterrorcallback</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2020b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m',12,0)">line 12</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('figurasTrasSimulacion', 'C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\Funciones auxiliares\figurasTrasSimulacion.m', 38)" style="font-weight:bold">figurasTrasSimulacion</a> (<a href="matlab: opentoline('C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\Funciones auxiliares\figurasTrasSimulacion.m',38,0)">line 38</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SimulacionAlgoritmo_AlbertoSaiz', 'C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\SimulacionAlgoritmo_AlbertoSaiz.m', 364)" style="font-weight:bold">SimulacionAlgoritmo_AlbertoSaiz</a> (<a href="matlab: opentoline('C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\SimulacionAlgoritmo_AlbertoSaiz.m',364,0)">line 364</a>)] 
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Blanco nº 2
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('defaulterrorcallback', 'C:\Program Files\MATLAB\R2020b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m', 12)" style="font-weight:bold">defaulterrorcallback</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2020b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m',12,0)">line 12</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('figurasTrasSimulacion', 'C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\Funciones auxiliares\figurasTrasSimulacion.m', 38)" style="font-weight:bold">figurasTrasSimulacion</a> (<a href="matlab: opentoline('C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\Funciones auxiliares\figurasTrasSimulacion.m',38,0)">line 38</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SimulacionAlgoritmo_AlbertoSaiz', 'C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\SimulacionAlgoritmo_AlbertoSaiz.m', 364)" style="font-weight:bold">SimulacionAlgoritmo_AlbertoSaiz</a> (<a href="matlab: opentoline('C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\SimulacionAlgoritmo_AlbertoSaiz.m',364,0)">line 364</a>)] 
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Error radar en coordenada \phi
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('defaulterrorcallback', 'C:\Program Files\MATLAB\R2020b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m', 12)" style="font-weight:bold">defaulterrorcallback</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2020b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m',12,0)">line 12</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SimulacionAlgoritmo_AlbertoSaiz', 'C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\SimulacionAlgoritmo_AlbertoSaiz.m', 535)" style="font-weight:bold">SimulacionAlgoritmo_AlbertoSaiz</a> (<a href="matlab: opentoline('C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\SimulacionAlgoritmo_AlbertoSaiz.m',535,0)">line 535</a>)] 
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Error radar en coordenada \theta
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('defaulterrorcallback', 'C:\Program Files\MATLAB\R2020b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m', 12)" style="font-weight:bold">defaulterrorcallback</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2020b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m',12,0)">line 12</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SimulacionAlgoritmo_AlbertoSaiz', 'C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\SimulacionAlgoritmo_AlbertoSaiz.m', 535)" style="font-weight:bold">SimulacionAlgoritmo_AlbertoSaiz</a> (<a href="matlab: opentoline('C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\SimulacionAlgoritmo_AlbertoSaiz.m',535,0)">line 535</a>)] 
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Error radar en coordenada \phi
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('defaulterrorcallback', 'C:\Program Files\MATLAB\R2020b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m', 12)" style="font-weight:bold">defaulterrorcallback</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2020b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m',12,0)">line 12</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SimulacionAlgoritmo_AlbertoSaiz', 'C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\SimulacionAlgoritmo_AlbertoSaiz.m', 535)" style="font-weight:bold">SimulacionAlgoritmo_AlbertoSaiz</a> (<a href="matlab: opentoline('C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\SimulacionAlgoritmo_AlbertoSaiz.m',535,0)">line 535</a>)] 
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter syntax:
+Error radar en coordenada \theta
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('defaulterrorcallback', 'C:\Program Files\MATLAB\R2020b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m', 12)" style="font-weight:bold">defaulterrorcallback</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2020b\toolbox\matlab\graphics\objectsystem\defaulterrorcallback.m',12,0)">line 12</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SimulacionAlgoritmo_AlbertoSaiz', 'C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\SimulacionAlgoritmo_AlbertoSaiz.m', 535)" style="font-weight:bold">SimulacionAlgoritmo_AlbertoSaiz</a> (<a href="matlab: opentoline('C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\SimulacionAlgoritmo_AlbertoSaiz.m',535,0)">line 535</a>)] 
+[Warning: Directory already exists.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SimulacionAlgoritmo_AlbertoSaiz', 'C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\SimulacionAlgoritmo_AlbertoSaiz.m', 554)" style="font-weight:bold">SimulacionAlgoritmo_AlbertoSaiz</a> (<a href="matlab: opentoline('C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\SimulacionAlgoritmo_AlbertoSaiz.m',554,0)">line 554</a>)] 
+El algoritmo ha convergido en el blanco  1 en 15 s
+El algoritmo ha convergido en el blanco  2 en 15 s
+La simulación ha tardado en total 148.5 s, con un tiempo medio de 1.485 s/vuelta
+ERRORES RADAR
+Las desviaciones típicas del blanco 1 en cartesianas son 9.433 (x) 7.8669 (y) 32.6571 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 32.8605 (r) 1.2709 (\phi) 0.017645 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 11.5621 (x) 13.5685 (y) 25.4695 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 27.9957 (r) 0.021667 (\phi) 0.01952 (\theta) 
+ERRORES KALMAN
+Las desviaciones típicas del blanco 1 en cartesianas son 8.5116 (x) 7.2241 (y) 27.7779 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 27.8925 (r) 4.1229 (\phi) 0.016052 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 10.5134 (x) 12.5962 (y) 22.1359 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 24.3829 (r) 0.021026 (\phi) 0.018463 (\theta) 
+MEJORA KALMAN
+La mejora por uso de Kalman del blanco 1 es de 9.7674 % (x) 8.1709 % (y) 14.9407 % (z) 
+La mejora por uso de Kalman del blanco 1 es de 15.1185 % (r) -224.4033 % (\phi) 9.03 % (\theta) 
+La mejora por uso de Kalman del blanco 2 es de 9.0699 % (x) 7.1652 % (y) 13.0885 % (z) 
+La mejora por uso de Kalman del blanco 2 es de 12.9049 % (r) 2.9569 % (\phi) 5.4174 % (\theta) 
+El algoritmo ha convergido en el blanco  1 en 19.5 s
+El algoritmo ha convergido en el blanco  2 en 15 s
+La simulación ha tardado en total 148.5 s, con un tiempo medio de 1.485 s/vuelta
+ERRORES RADAR
+Las desviaciones típicas del blanco 1 en cartesianas son 11.9872 (x) 11.0678 (y) 33.5669 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 34.5815 (r) 2.8135 (\phi) 0.022462 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 12.6133 (x) 11.4294 (y) 27.9015 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 30.4355 (r) 0.024527 (\phi) 0.01561 (\theta) 
+ERRORES KALMAN
+Las desviaciones típicas del blanco 1 en cartesianas son 11.3814 (x) 9.8499 (y) 29.1319 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 29.855 (r) 8.3592 (\phi) 0.021579 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 11.953 (x) 10.0833 (y) 25.2235 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 27.3919 (r) 0.024627 (\phi) 0.014633 (\theta) 
+MEJORA KALMAN
+La mejora por uso de Kalman del blanco 1 es de 5.0536 % (x) 11.0041 % (y) 13.2125 % (z) 
+La mejora por uso de Kalman del blanco 1 es de 13.6677 % (r) -197.1069 % (\phi) 3.9316 % (\theta) 
+La mejora por uso de Kalman del blanco 2 es de 5.2352 % (x) 11.777 % (y) 9.5982 % (z) 
+La mejora por uso de Kalman del blanco 2 es de 10.0002 % (r) -0.40718 % (\phi) 6.2557 % (\theta) 
+El algoritmo ha convergido en el blanco  1 en 150 s
+El algoritmo ha convergido en el blanco  2 en 15 s
+La simulación ha tardado en total 148.5 s, con un tiempo medio de 1.485 s/vuelta
+ERRORES RADAR
+Las desviaciones típicas del blanco 1 en cartesianas son 18.1269 (x) 22.6814 (y) 33.6209 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 38.2922 (r) 3.0571 (\phi) 0.028479 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 13.4903 (x) 14.9293 (y) 25.8982 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 29.6877 (r) 0.021817 (\phi) 0.019563 (\theta) 
+ERRORES KALMAN
+Las desviaciones típicas del blanco 1 en cartesianas son 6.6793 (x) 11.8371 (y) 24.9519 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 26.8238 (r) 12.5569 (\phi) 0.012066 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 7.0278 (x) 14.0158 (y) 11.203 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 13.5428 (r) 0.018045 (\phi) 0.020283 (\theta) 
+MEJORA KALMAN
+La mejora por uso de Kalman del blanco 1 es de 63.1527 % (x) 47.8114 % (y) 25.7844 % (z) 
+La mejora por uso de Kalman del blanco 1 es de 29.9497 % (r) -310.7491 % (\phi) 57.6296 % (\theta) 
+La mejora por uso de Kalman del blanco 2 es de 47.905 % (x) 6.1194 % (y) 56.742 % (z) 
+La mejora por uso de Kalman del blanco 2 es de 54.3826 % (r) 17.2894 % (\phi) -3.679 % (\theta) 
+El algoritmo ha convergido en el blanco  1 en 28.5 s
+El algoritmo ha convergido en el blanco  2 en 31.5 s
+La simulación ha tardado en total 148.5 s, con un tiempo medio de 1.485 s/vuelta
+ERRORES RADAR
+Las desviaciones típicas del blanco 1 en cartesianas son 8.2907 (x) 9.1382 (y) 26.3957 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 27.1069 (r) 2.2588 (\phi) 0.01707 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 12.1778 (x) 11.6187 (y) 26.5394 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 29.2968 (r) 0.019672 (\phi) 0.015891 (\theta) 
+ERRORES KALMAN
+Las desviaciones típicas del blanco 1 en cartesianas son 7.9805 (x) 8.474 (y) 22.8161 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 23.5446 (r) 8.3321 (\phi) 0.015942 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 9.7317 (x) 9.6835 (y) 22.1381 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 24.2875 (r) 0.018161 (\phi) 0.01261 (\theta) 
+MEJORA KALMAN
+La mejora por uso de Kalman del blanco 1 es de 3.7412 % (x) 7.2683 % (y) 13.5615 % (z) 
+La mejora por uso de Kalman del blanco 1 es de 13.1416 % (r) -268.8713 % (\phi) 6.6058 % (\theta) 
+La mejora por uso de Kalman del blanco 2 es de 20.0868 % (x) 16.656 % (y) 16.5841 % (z) 
+La mejora por uso de Kalman del blanco 2 es de 17.0985 % (r) 7.6784 % (\phi) 20.6469 % (\theta) 
+El algoritmo ha convergido en el blanco  1 en 150 s
+El algoritmo ha convergido en el blanco  2 en 15 s
+La simulación ha tardado en total 148.5 s, con un tiempo medio de 1.485 s/vuelta
+ERRORES RADAR
+Las desviaciones típicas del blanco 1 en cartesianas son 9.7774 (x) 8.6285 (y) 33.0437 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 33.8421 (r) 1.2626 (\phi) 0.017339 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 11.0625 (x) 12.2254 (y) 26.026 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 28.7283 (r) 0.016578 (\phi) 0.016166 (\theta) 
+ERRORES KALMAN
+Las desviaciones típicas del blanco 1 en cartesianas son 8.1548 (x) 6.8088 (y) 25.3392 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 25.8575 (r) 8.3361 (\phi) 0.014656 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 9.1188 (x) 10.2026 (y) 21.6362 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 23.4823 (r) 0.015106 (\phi) 0.014779 (\theta) 
+MEJORA KALMAN
+La mejora por uso de Kalman del blanco 1 es de 16.5952 % (x) 21.0889 % (y) 23.3162 % (z) 
+La mejora por uso de Kalman del blanco 1 es de 23.5937 % (r) -560.2451 % (\phi) 15.4701 % (\theta) 
+La mejora por uso de Kalman del blanco 2 es de 17.5701 % (x) 16.5457 % (y) 16.8668 % (z) 
+La mejora por uso de Kalman del blanco 2 es de 18.2606 % (r) 8.884 % (\phi) 8.5797 % (\theta) 
+El algoritmo ha convergido en el blanco  1 en 150 s
+El algoritmo ha convergido en el blanco  2 en 15 s
+La simulación ha tardado en total 148.5 s, con un tiempo medio de 1.485 s/vuelta
+ERRORES RADAR
+Las desviaciones típicas del blanco 1 en cartesianas son 8.4399 (x) 10.297 (y) 33.1477 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 34.015 (r) 1.4073 (\phi) 0.017456 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 11.5852 (x) 14.2423 (y) 24.5226 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 27.6626 (r) 0.023957 (\phi) 0.01769 (\theta) 
+ERRORES KALMAN
+Las desviaciones típicas del blanco 1 en cartesianas son 6.727 (x) 7.931 (y) 25.6748 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 26.2541 (r) 8.3362 (\phi) 0.013715 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 10.2596 (x) 12.8432 (y) 19.7633 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 22.6688 (r) 0.023496 (\phi) 0.01561 (\theta) 
+MEJORA KALMAN
+La mejora por uso de Kalman del blanco 1 es de 20.2954 % (x) 22.9777 % (y) 22.5444 % (z) 
+La mejora por uso de Kalman del blanco 1 es de 22.8163 % (r) -492.345 % (\phi) 21.426 % (\theta) 
+La mejora por uso de Kalman del blanco 2 es de 11.4418 % (x) 9.8235 % (y) 19.408 % (z) 
+La mejora por uso de Kalman del blanco 2 es de 18.0527 % (r) 1.9277 % (\phi) 11.758 % (\theta) 
+El algoritmo ha convergido en el blanco  1 en 15 s
+El algoritmo ha convergido en el blanco  2 en 15 s
+La simulación ha tardado en total 148.5 s, con un tiempo medio de 1.485 s/vuelta
+ERRORES RADAR
+Las desviaciones típicas del blanco 1 en cartesianas son 9.7161 (x) 8.91 (y) 33.4665 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 34.4776 (r) 2.3486 (\phi) 0.01664 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 12.5639 (x) 13.3197 (y) 24.4816 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 27.3093 (r) 0.021946 (\phi) 0.019839 (\theta) 
+ERRORES KALMAN
+Las desviaciones típicas del blanco 1 en cartesianas son 7.7873 (x) 7.318 (y) 24.321 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 25.1156 (r) 8.3345 (\phi) 0.013884 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 10.7821 (x) 10.2246 (y) 17.6608 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 19.5764 (r) 0.0193 (\phi) 0.017672 (\theta) 
+MEJORA KALMAN
+La mejora por uso de Kalman del blanco 1 es de 19.852 % (x) 17.868 % (y) 27.3272 % (z) 
+La mejora por uso de Kalman del blanco 1 es de 27.1539 % (r) -254.8655 % (\phi) 16.5586 % (\theta) 
+La mejora por uso de Kalman del blanco 2 es de 14.1818 % (x) 23.2372 % (y) 27.8609 % (z) 
+La mejora por uso de Kalman del blanco 2 es de 28.3159 % (r) 12.0546 % (\phi) 10.9249 % (\theta) 
+El algoritmo ha convergido en el blanco  1 en 150 s
+El algoritmo ha convergido en el blanco  2 en 15 s
+La simulación ha tardado en total 148.5 s, con un tiempo medio de 1.485 s/vuelta
+ERRORES RADAR
+Las desviaciones típicas del blanco 1 en cartesianas son 9.2105 (x) 9.2512 (y) 31.9565 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 32.7303 (r) 2.8816 (\phi) 0.017443 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 12.3802 (x) 13.1218 (y) 23.0944 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 26.2728 (r) 0.019543 (\phi) 0.018554 (\theta) 
+ERRORES KALMAN
+Las desviaciones típicas del blanco 1 en cartesianas son 7.5969 (x) 7.2534 (y) 24.4852 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 24.8488 (r) 8.3355 (\phi) 0.015077 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 9.3791 (x) 10.3817 (y) 15.3901 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 16.939 (r) 0.017054 (\phi) 0.017423 (\theta) 
+MEJORA KALMAN
+La mejora por uso de Kalman del blanco 1 es de 17.5196 % (x) 21.5954 % (y) 23.3796 % (z) 
+La mejora por uso de Kalman del blanco 1 es de 24.08 % (r) -189.2613 % (\phi) 13.5673 % (\theta) 
+La mejora por uso de Kalman del blanco 2 es de 24.2412 % (x) 20.8819 % (y) 33.36 % (z) 
+La mejora por uso de Kalman del blanco 2 es de 35.5263 % (r) 12.7346 % (\phi) 6.0961 % (\theta) 
+El algoritmo ha convergido en el blanco  1 en 27 s
+El algoritmo ha convergido en el blanco  2 en 15 s
+La simulación ha tardado en total 148.5 s, con un tiempo medio de 1.485 s/vuelta
+ERRORES RADAR
+Las desviaciones típicas del blanco 1 en cartesianas son 8.0813 (x) 8.8852 (y) 27.1898 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 27.6908 (r) 1.5375 (\phi) 0.017458 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 11.7175 (x) 11.5434 (y) 21.1963 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 24.525 (r) 0.016233 (\phi) 0.015669 (\theta) 
+ERRORES KALMAN
+Las desviaciones típicas del blanco 1 en cartesianas son 5.3294 (x) 6.9893 (y) 17.0745 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 17.4132 (r) 8.3335 (\phi) 0.012855 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 9.5063 (x) 9.0504 (y) 14.7043 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 16.9159 (r) 0.01305 (\phi) 0.014882 (\theta) 
+MEJORA KALMAN
+La mejora por uso de Kalman del blanco 1 es de 34.0525 % (x) 21.3372 % (y) 37.2024 % (z) 
+La mejora por uso de Kalman del blanco 1 es de 37.1153 % (r) -442.0009 % (\phi) 26.3652 % (\theta) 
+La mejora por uso de Kalman del blanco 2 es de 18.8714 % (x) 21.5969 % (y) 30.6282 % (z) 
+La mejora por uso de Kalman del blanco 2 es de 31.0259 % (r) 19.6088 % (\phi) 5.0234 % (\theta) 
+El algoritmo ha convergido en el blanco  1 en 15 s
+El algoritmo ha convergido en el blanco  2 en 15 s
+La simulación ha tardado en total 148.5 s, con un tiempo medio de 1.485 s/vuelta
+ERRORES RADAR
+Las desviaciones típicas del blanco 1 en cartesianas son 10.1379 (x) 9.2519 (y) 29.2512 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 30.132 (r) 1.2542 (\phi) 0.019073 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 13.2919 (x) 12.9572 (y) 26.5898 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 29.4244 (r) 0.021206 (\phi) 0.019429 (\theta) 
+ERRORES KALMAN
+Las desviaciones típicas del blanco 1 en cartesianas son 12.6767 (x) 10.4066 (y) 19.0179 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 21.3459 (r) 4.1675 (\phi) 0.02144 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 12.3632 (x) 12.2883 (y) 18.5093 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 21.1916 (r) 0.019933 (\phi) 0.020167 (\theta) 
+MEJORA KALMAN
+La mejora por uso de Kalman del blanco 1 es de -25.0424 % (x) -12.4813 % (y) 34.9841 % (z) 
+La mejora por uso de Kalman del blanco 1 es de 29.1587 % (r) -232.2925 % (\phi) -12.4125 % (\theta) 
+La mejora por uso de Kalman del blanco 2 es de 6.9872 % (x) 5.1629 % (y) 30.3896 % (z) 
+La mejora por uso de Kalman del blanco 2 es de 27.9797 % (r) 6.0028 % (\phi) -3.7981 % (\theta) 
+El algoritmo ha convergido en el blanco  1 en 15 s
+El algoritmo ha convergido en el blanco  2 en 15 s
+La simulación ha tardado en total 148.5 s, con un tiempo medio de 1.485 s/vuelta
+ERRORES RADAR
+Las desviaciones típicas del blanco 1 en cartesianas son 10.6506 (x) 9.6368 (y) 26.659 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 28.1407 (r) 1.4053 (\phi) 0.017781 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 13.6316 (x) 12.737 (y) 28.2653 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 30.9121 (r) 0.018663 (\phi) 0.020447 (\theta) 
+ERRORES KALMAN
+Las desviaciones típicas del blanco 1 en cartesianas son 12.0307 (x) 8.0468 (y) 21.2991 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 23.4168 (r) 4.1674 (\phi) 0.017039 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 13.3933 (x) 11.642 (y) 21.0685 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 23.8836 (r) 0.015569 (\phi) 0.020742 (\theta) 
+MEJORA KALMAN
+La mejora por uso de Kalman del blanco 1 es de -12.9572 % (x) 16.4992 % (y) 20.1052 % (z) 
+La mejora por uso de Kalman del blanco 1 es de 16.7868 % (r) -196.5502 % (\phi) 4.1696 % (\theta) 
+La mejora por uso de Kalman del blanco 2 es de 1.7476 % (x) 8.5972 % (y) 25.4615 % (z) 
+La mejora por uso de Kalman del blanco 2 es de 22.737 % (r) 16.579 % (\phi) -1.4437 % (\theta) 
+El algoritmo ha convergido en el blanco  1 en 31.5 s
+El algoritmo ha convergido en el blanco  2 en 15 s
+La simulación ha tardado en total 148.5 s, con un tiempo medio de 1.485 s/vuelta
+ERRORES RADAR
+Las desviaciones típicas del blanco 1 en cartesianas son 9.9867 (x) 10.8658 (y) 29.8928 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 31.2119 (r) 1.2528 (\phi) 0.018666 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 13.6977 (x) 12.9249 (y) 26.7894 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 30.0506 (r) 0.019659 (\phi) 0.018687 (\theta) 
+ERRORES KALMAN
+Las desviaciones típicas del blanco 1 en cartesianas son 9.7516 (x) 10.7315 (y) 23.3417 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 25.1569 (r) 4.168 (\phi) 0.017412 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 9.8843 (x) 9.4016 (y) 17.4743 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 19.0561 (r) 0.017326 (\phi) 0.016215 (\theta) 
+MEJORA KALMAN
+La mejora por uso de Kalman del blanco 1 es de 2.3549 % (x) 1.236 % (y) 21.9154 % (z) 
+La mejora por uso de Kalman del blanco 1 es de 19.3996 % (r) -232.7006 % (\phi) 6.7157 % (\theta) 
+La mejora por uso de Kalman del blanco 2 es de 27.8397 % (x) 27.2601 % (y) 34.7718 % (z) 
+La mejora por uso de Kalman del blanco 2 es de 36.5865 % (r) 11.8684 % (\phi) 13.2268 % (\theta) 
+El algoritmo ha convergido en el blanco  1 en 25.5 s
+El algoritmo ha convergido en el blanco  2 en 15 s
+La simulación ha tardado en total 148.5 s, con un tiempo medio de 1.485 s/vuelta
+ERRORES RADAR
+Las desviaciones típicas del blanco 1 en cartesianas son 4.1399 (x) 4.8346 (y) 26.5951 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 27.0031 (r) 1.655 (\phi) 0.014066 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 12.8106 (x) 11.4248 (y) 21.4372 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 24.3884 (r) 0.017431 (\phi) 0.01854 (\theta) 
+ERRORES KALMAN
+Las desviaciones típicas del blanco 1 en cartesianas son 3.981 (x) 3.596 (y) 16.0796 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 16.4588 (r) 4.2125 (\phi) 0.012807 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 9.6951 (x) 10.6531 (y) 13.4242 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 15.9867 (r) 0.014212 (\phi) 0.017052 (\theta) 
+MEJORA KALMAN
+La mejora por uso de Kalman del blanco 1 es de 3.8374 % (x) 25.6212 % (y) 39.5393 % (z) 
+La mejora por uso de Kalman del blanco 1 es de 39.0484 % (r) -154.5302 % (\phi) 8.9564 % (\theta) 
+La mejora por uso de Kalman del blanco 2 es de 24.3199 % (x) 6.7547 % (y) 37.3788 % (z) 
+La mejora por uso de Kalman del blanco 2 es de 34.4496 % (r) 18.4669 % (\phi) 8.0215 % (\theta) 
+El algoritmo ha convergido en el blanco  1 en 150 s
+El algoritmo ha convergido en el blanco  2 en 15 s
+La simulación ha tardado en total 148.5 s, con un tiempo medio de 1.485 s/vuelta
+ERRORES RADAR
+Las desviaciones típicas del blanco 1 en cartesianas son 4.7072 (x) 4.3632 (y) 32.6457 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 33.2051 (r) 1.4301 (\phi) 0.020516 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 12.3058 (x) 12.0787 (y) 25.9208 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 29.0534 (r) 0.017172 (\phi) 0.015915 (\theta) 
+ERRORES KALMAN
+Las desviaciones típicas del blanco 1 en cartesianas son 6.7398 (x) 5.7313 (y) 37.0497 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 37.9672 (r) 4.1551 (\phi) 0.024976 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 9.3206 (x) 10.1354 (y) 16.7353 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 18.9376 (r) 0.013835 (\phi) 0.015451 (\theta) 
+MEJORA KALMAN
+La mejora por uso de Kalman del blanco 1 es de -43.182 % (x) -31.354 % (y) -13.4902 % (z) 
+La mejora por uso de Kalman del blanco 1 es de -14.3415 % (r) -190.5562 % (\phi) -21.7378 % (\theta) 
+La mejora por uso de Kalman del blanco 2 es de 24.2586 % (x) 16.0881 % (y) 35.4366 % (z) 
+La mejora por uso de Kalman del blanco 2 es de 34.8181 % (r) 19.4304 % (\phi) 2.9201 % (\theta) 
+El algoritmo ha convergido en el blanco  1 en 150 s
+El algoritmo ha convergido en el blanco  2 en 15 s
+La simulación ha tardado en total 148.5 s, con un tiempo medio de 1.485 s/vuelta
+ERRORES RADAR
+Las desviaciones típicas del blanco 1 en cartesianas son 4.8148 (x) 4.5417 (y) 32.3773 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 32.8613 (r) 0.88944 (\phi) 0.01823 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 12.8569 (x) 12.6344 (y) 27.3367 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 30.26 (r) 0.017353 (\phi) 0.018488 (\theta) 
+ERRORES KALMAN
+Las desviaciones típicas del blanco 1 en cartesianas son 3.7591 (x) 3.8141 (y) 23.7922 (z) 
+Las desviaciones típicas del blanco 1 en esféricas son 24.2176 (r) 4.1687 (\phi) 0.014243 (\theta) 
+Las desviaciones típicas del blanco 2 en cartesianas son 10.2183 (x) 8.5652 (y) 18.166 (z) 
+Las desviaciones típicas del blanco 2 en esféricas son 20.1393 (r) 0.01359 (\phi) 0.014964 (\theta) 
+MEJORA KALMAN
+La mejora por uso de Kalman del blanco 1 es de 21.9255 % (x) 16.0195 % (y) 26.5159 % (z) 
+La mejora por uso de Kalman del blanco 1 es de 26.3034 % (r) -368.6899 % (\phi) 21.8699 % (\theta) 
+La mejora por uso de Kalman del blanco 2 es de 20.5224 % (x) 32.2072 % (y) 33.5473 % (z) 
+La mejora por uso de Kalman del blanco 2 es de 33.4459 % (r) 21.6846 % (\phi) 19.06 % (\theta) 
+{Reference to non-existent field 'inicioTraza'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tiempoConvergencia', 'C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\Funciones Para Optimización\tiempoConvergencia.m', 5)" style="font-weight:bold">tiempoConvergencia</a> (<a href="matlab: opentoline('C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\Funciones Para Optimización\tiempoConvergencia.m',5,0)">line 5</a>)
+    if isinf(errorKalman{i}.inicioTraza)
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('SimulacionAlgoritmo_AlbertoSaiz', 'C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\SimulacionAlgoritmo_AlbertoSaiz.m', 561)" style="font-weight:bold">SimulacionAlgoritmo_AlbertoSaiz</a> (<a href="matlab: opentoline('C:\Users\Usuario\OneDrive - Universidad Politécnica de Madrid\4º curso\TFG-Cátedra Indra\Redacción TFG\Código Subir\Simulación Algoritmo Propuesto\SimulacionAlgoritmo_AlbertoSaiz.m',561,0)">line 561</a>)
+tiempoConv=tiempoConvergencia(errorRadar, errorKalman,param,N);
+} 
+blanco{1}.movcart(1,:)
+
+ans =
+
+          32.9931537567168                         0           187.11347307232
+
+blanco{2}.movcart(1,:)
+
+ans =
+
+                      -250                      -250                       550
+
+SimulacionAlgoritmo_AlbertoSaiz
+Has elegido Escenarios predefinidos
+Vuelta número 2
+2%
+Vuelta número 3
+3%
+Vuelta número 4
+4%
+Vuelta número 5
+5%
+Vuelta número 6
+6%
+Vuelta número 7
+7%
+Vuelta número 8
+8%
+Vuelta número 9
+9%
+Vuelta número 10
+10%
+Vuelta número 11
+11%
+Vuelta número 12
+12%
+Vuelta número 13
+13%
+Vuelta número 14
+14%
+Vuelta número 15
+15%
+Vuelta número 16
+16%
+Vuelta número 17
+17%
+Vuelta número 18
+18%
+Vuelta número 19
+19%
+Vuelta número 20
+20%
+Vuelta número 21
+21%
+Vuelta número 22
+22%
+Vuelta número 23
+23%
+Vuelta número 24
+24%
+Vuelta número 25
+25%
+Vuelta número 26
+26%
+Vuelta número 27
+27%
+Vuelta número 28
+28%
+Vuelta número 29
+29%
+Vuelta número 30
+30%
+Vuelta número 33
+33%
+Vuelta número 34
+34%
+Vuelta número 35
+35%
+Vuelta número 36
+36%
+Vuelta número 37
+37%
+Vuelta número 38
+38%
+Vuelta número 39
+39%
+Vuelta número 40
+40%
+Vuelta número 41
+41%
+Vuelta número 42
+42%
+Vuelta número 44
+44%
+Vuelta número 46
+46%
+Vuelta número 47
+47%
+Vuelta número 48
+48%
+Vuelta número 49
+49%
+Vuelta número 50
+50%
+Vuelta número 51
+51%
+Vuelta número 52
+52%
+Vuelta número 53
+53%
+Vuelta número 57
+57%
+Vuelta número 58
+58%
+Vuelta número 59
+59%
+Vuelta número 60
+60%
+Vuelta número 61
+61%
+Vuelta número 62
+62%
+Vuelta número 64
+64%
+Vuelta número 65
+65%
+Vuelta número 66
+66%
+Vuelta número 67
+67%
+Vuelta número 68
+68%
+Vuelta número 69
+69%
+Vuelta número 70
+70%
+Vuelta número 71
+71%
+Vuelta número 72
+72%
+Vuelta número 73
+73%
+Vuelta número 74
+74%
+Vuelta número 75
+75%
+Vuelta número 76
+76%
+Vuelta número 78
+78%
+Vuelta número 79
+79%
+Vuelta número 80
+80%
+Vuelta número 81
+81%
+Vuelta número 82
+82%
+Vuelta número 83
+83%
+Vuelta número 84
+84%
+Vuelta número 85
+85%
+Vuelta número 86
+86%
+Vuelta número 87
+87%
+Vuelta número 88
+88%
+Vuelta número 89
+89%
+Vuelta número 90
+90%
+Vuelta número 92
+92%
+Vuelta número 93
+93%
+Vuelta número 94
+94%
+Vuelta número 95
+95%
+Vuelta número 97
+97%
+Vuelta número 98
+98%
+Vuelta número 99
+99%
+Vuelta número 100
+100%

@@ -1,0 +1,7 @@
+function [modF]=elegirModelo()
+fn=['NCV: Nearly Constant Velocity Motion Model', '
+[indx,tf] = listdlg('PromptString',{'Seleccione el escenario a simular',...
+        'Solo se puede seleccionar un escenario',''},...
+        'SelectionMode','single','ListString',fn, 'ListSize',[250,250]);
+end
+
