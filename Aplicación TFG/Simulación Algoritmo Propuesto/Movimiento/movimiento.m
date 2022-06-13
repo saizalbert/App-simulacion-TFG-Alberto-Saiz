@@ -4,7 +4,6 @@ switch blanco{i}.modo
     case 1 %Mov circular
         pos(i,:)=mov_circ(pos(i,:), blanco{i}.w,deltaK);
     case 2 %Mov radial hacia 0.0
-        %pos(i,:)=mov_radial(pos(i,:), blanco{i}.v,deltaK);
         vectorVelRad=-esf2cart(blanco{i}.pos_ini)/(param.periodoT*param.res); 
         blanco{i}.vectorVel=vectorVelRad; 
         blanco{i}.vectorAcc=[0 0 0]; 
@@ -18,8 +17,6 @@ switch blanco{i}.modo
         
     case 5  %Mov radial con variaciones
         pos(i,:)=mov_radial(pos(i,:), blanco{i}.v,deltaK);
-%         vectorVelRad=-esf2cart(blanco{i}.pos_ini)/paramBlanco.tEstimado; 
-%         pos(i,:)=mov_recta(blanco{i}.pos_ini,vectorVelRad,t);
         pos(i,2)=pos(i,2) +randn*paramBlanco.sigmaphi;
         pos(i,3)=pos(i,3) +randn*paramBlanco.sigmatheta;
     case 6 %Mov en recta
@@ -55,12 +52,7 @@ switch blanco{i}.modo
             pos(i,:)=mov_recta(pos(i,:),blanco{i}.vectorVel,deltaK);
         end 
     case 13 %Modo radial acelerado (Modo KAMIKAZE) 
-%         pos(i,:)=mov_radialAcc(blanco{i}.pos_ini, blanco{i}.v,blanco{i}.a, t);
-        vectorVelRad=-esf2cart(blanco{i}.pos_ini)*0.5/(param.periodoT*param.res); 
-        vectorAccRad=0.15*vectorVelRad; 
-        blanco{i}.vectorVel=vectorVelRad; 
-        blanco{i}.vectorAcc=vectorAccRad; 
-        pos(i,:)=mov_rectaAcelerado(blanco{i}.pos_ini,blanco{i}.vectorVel,blanco{i}.vectorAcc,t);
+        pos(i,:)=mov_radialAcc(blanco{i}.pos_ini, blanco{i}.v,blanco{i}.a, t);
     case 14 %Tiro balístico 
         pos(i,:)=mov_tiroBalistico(blanco{i}.pos_ini,blanco{i}.vectorVel,param,t);
     case 15 %Espiral 
