@@ -59,19 +59,24 @@ switch gen
         blanco=cell(1,N);
         modF=elegirModelo();
         for i=1:N
-            prompt = {"R inicial blanco nº" + i,"Phi inicial blanco nº" + i , "Theta inicial blanco nº" + i, "Modo de movimiento del blanco nº" + i ,"Velocidad radial del blanco nº" + i, "Velocidad angular del blanco nº" + i, "Vector velocidad x del blanco nº" + i,"Vector velocidad y del blanco nº" + i,"Vector velocidad z del blanco nº" + i, "Escala aceleración/velocidad del blanco nº" + i};
+            blanco{i}.modo=elegirModo();
+            prompt = {"x inicial blanco nº" + i,"y inicial blanco nº" + i , "z inicial blanco nº" + i, "Velocidad radial del blanco nº" + i ,"Aceleración radial del blanco nº" + i, "Velocidad angular del blanco nº" + i, "Vector velocidad x del blanco nº" + i,"Vector velocidad y del blanco nº" + i,"Vector velocidad z del blanco nº" + i, "Escala aceleración/velocidad del blanco nº" + i};
             dlgtitle = "Blanco nº" + i;
             answer = inputdlg(prompt,dlgtitle);
-            blanco{i}.r_i=str2double(answer{1});
-            blanco{i}.phi_i=str2double(answer{2});
-            blanco{i}.theta_i=str2double(answer{3});
-            blanco{i}.modo=str2double(answer{4});
-            blanco{i}.v=str2double(answer{5});
+            x=str2double(answer{1});
+            y=str2double(answer{2});
+            z=str2double(answer{2});
+            blanco{i}.pos_ini=cart2esf([x y z]); 
+            blanco{i}.r_i=blanco{i}.pos_ini(1);
+            blanco{i}.phi_i=blanco{i}.pos_ini(2);
+            blanco{i}.theta_i=blanco{i}.pos_ini(3);
+            blanco{i}.v=str2double(answer{4});
+            blanco{i}.a=str2double(answer{5});
             blanco{i}.w=str2double(answer{6});
-            blanco{i}.vectorVel(1)=(answer{7});
-            blanco{i}.vectorVel(2)=(answer{8});
-            blanco{i}.vectorVel(3)=(answer{9});
-            blanco{i}.escala=(answer{10});
+            blanco{i}.vectorVel(1)=str2double(answer{7});
+            blanco{i}.vectorVel(2)=str2double(answer{8});
+            blanco{i}.vectorVel(3)=str2double(answer{9});
+            blanco{i}.escala=str2double(answer{10});
             blanco{i}.vectorAcc=blanco{i}.escala*blanco{i}.vectorVel;
         end
     case 'Automático'
